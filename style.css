@@ -27,8 +27,8 @@ body {
 }
 
 .circle-shape {
-	width: 190px;
-	height: 190px;
+	width: 140px;
+	height: 140px;
 	position: relative;
 	overflow: hidden;
 	border-radius: 50%;
@@ -38,7 +38,7 @@ body {
 
 .profile-pic {
 	display: inline;
-	margin: auto;
+	margin: 0px auto;
 	height: 100%;
 	width: auto;
 }
@@ -49,13 +49,12 @@ a {
 }
 
 .ig-link {
-	font-size: x-large;
 	margin: 10px 0;
 	font-weight: bold;
 }
 
 .link-list {
-	width: 90%;
+	width: 70%;
 	padding-inline-start: 0px;
 	list-style: none;
 	margin: auto;
