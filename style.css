@@ -1,8 +1,4 @@
-body{
-	height: 100%;
-	align-content: center;
-	margin: auto;
-}
+
 :root {
 	--darkest-color: #064273;
 	--lightest-color: #def3f6;
@@ -10,6 +6,13 @@ body{
 	--bright-color-1: #ffffff;
 	--bright-color-2: #ffffff;
 	--bright-color-3: #ffffff;
+}
+body{
+	background: var(--darkest-color);
+	color: var(--lightest-color);
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	margin: auto;
 }
 /*
 body {
@@ -25,7 +28,6 @@ body {
 	flex-direction: column;
 	text-align: center;
 	margin: auto;
-	background-image: linear-gradient(to right top, #e900ff, #d600ff, #c200ff, #ad00ff, #9500ff, #8600ff, #7500ff, #6100ff, #5500ff, #4700ff, #3400ff, #1600ff);
 }
 
 .circle-shape {
