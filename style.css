@@ -10,7 +10,6 @@
 body{
 	background: var(--darkest-color);
 	color: var(--lightest-color);
-	font-family: 'Roboto', sans-serif;
 	align-content: center;
 	margin: auto;
 }
